@@ -1,5 +1,4 @@
 import time
-import sqlite3
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
 from quizz import mxat_history_question, mxat_building_question, mxat_to_nations_question

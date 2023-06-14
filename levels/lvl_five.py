@@ -17,7 +17,7 @@ from files_manager import (get_building_score, get_history_score,
 def get_file_path():
     if platform.system() == "Linux":
         home_directory = os.path.expanduser("~")
-        file_path = os.path.join(home_directory, "hsetelegrambot", "media", "guide.pdf")
+        file_path = os.path.join(home_directory, "DiverseMoscowBot", "media", "guide.pdf")
         return file_path
     else:
         return '/Users/ilya/Desktop/hsetelegrambot/media/guide.pdf'
